@@ -17,7 +17,7 @@ function App() {
       <input type="text" value={inputvalue} onChange={changeInputValue}></input>
       <DefaultComponent name={prop}></DefaultComponent>
       <h1>Vite + React</h1>
-      <button onClick={changeProp}>Click me</button>
+      <button onClick={changeProp}>Click me!</button>
     </>
   )
 }
