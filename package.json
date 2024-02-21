@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "baksnn.github.io/TypeScript-and-React/",
+  "homepage": "https://baksnn.github.io/TypeScript-and-React/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
