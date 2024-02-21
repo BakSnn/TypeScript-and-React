@@ -16,11 +16,10 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
       <input type="text" value={inputvalue} onChange={changeInputValue}></input>
       <h2>Enter your name to say you hello</h2>
       <DefaultComponent name={prop}></DefaultComponent>
-      <button onClick={changeProp}>Click me!</button>
+      <button onClick={changeProp}>Say hello</button>
     </>
   )
 }
