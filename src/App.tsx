@@ -1,13 +1,13 @@
 import { SetStateAction, useState } from 'react'
 import './App.css'
 import DefaultComponent from './components/DefaultComponent'
-
+import Button from './UI/Button/Button.jsx'
 function App() {
   const changeProp = () => {
     if(inputvalue !== '')
     setProp(inputvalue)
-  else
-  setProp("Сначала введите имя")
+    else
+    setProp("Сначала введите имя")
   }
   const changeInputValue = (event: {
     target: { value: SetStateAction<string> }
@@ -27,8 +27,9 @@ function App() {
       <button onClick={() => {setProp("Неугадал кнопку 🙂")}}>Say hello</button>
       <button onClick={() => {setProp("Неугадал кнопку 😛")}}>Say hello</button>
       <button onClick={() => {setProp("Неугадал кнопку 🤓")}}>Say hello</button>
+      <Button onClick={() => {setProp("Угадал кнопку, но она ничего не делает")}} text = 'Нажми на меня'></Button>
       <DefaultComponent name={prop}></DefaultComponent>
-
+      
     </>
   )
 }
