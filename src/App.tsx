@@ -11,12 +11,12 @@ function App() {
   }) => {
     setInputValue(event.target.value)
   }
-  const [prop, setProp] = useState('')
+  const [prop, setProp] = useState("{You'r name}")
   const [inputvalue, setInputValue] = useState('')
 
   return (
     <>
-      <input type="text" value={inputvalue} onChange={changeInputValue}></input>
+      <input type="text" placeholder="Enter you'r name" value={inputvalue} onChange={changeInputValue}></input>
       <h2>Enter your name to say you hello</h2>
       <DefaultComponent name={prop}></DefaultComponent>
       <button onClick={changeProp}>Say hello</button>
