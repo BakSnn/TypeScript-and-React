@@ -21,6 +21,10 @@ function App() {
       <h2>Enter your name to say you hello</h2>
       <DefaultComponent name={prop}></DefaultComponent>
       <button onClick={changeProp}>Say hello</button>
+      <button onClick={changeProp}>Say hello</button>
+      <button onClick={changeProp}>Say hello</button>
+      <button onClick={changeProp}>Say hello</button>
+      <button onClick={changeProp}>Say hello</button>
     </>
   )
 }
