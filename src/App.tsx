@@ -4,6 +4,7 @@ import DefaultComponent from './components/DefaultComponent'
 
 function App() {
   const changeProp = () => {
+    if(inputvalue !== '')
     setProp(inputvalue)
   }
   const changeInputValue = (event: {
