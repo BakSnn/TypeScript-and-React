@@ -6,6 +6,8 @@ function App() {
   const changeProp = () => {
     if(inputvalue !== '')
     setProp(inputvalue)
+  else
+  setProp("Сначала введите имя")
   }
   const changeInputValue = (event: {
     target: { value: SetStateAction<string> }
@@ -18,7 +20,7 @@ function App() {
   return (
     <>     
       <h2>Enter your name to say you hello</h2>
-      <input type="text" placeholder="Enter you'r name" value={inputvalue} onChange={changeInputValue} className='inputLabel'></input>
+      <input type="text" placeholder="Enter you'r name here" value={inputvalue} onChange={changeInputValue} className='inputLabel'></input>
       <br></br>
       <button onClick={() => {setProp("Неугадал кнопку 😝")}}>Say hello</button>
       <button onClick={changeProp}>Say hello</button>
