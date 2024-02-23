@@ -7,3 +7,10 @@
 button{
   margin: 10px;
 }
+.inputLabel{
+  all: unset;
+  font-size: 22px;
+}
+.inputLabel:focus{
+  color: #0288D1;
+}
