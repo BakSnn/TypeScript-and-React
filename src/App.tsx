@@ -20,11 +20,11 @@ function App() {
       <input type="text" placeholder="Enter you'r name" value={inputvalue} onChange={changeInputValue}></input>
       <h2>Enter your name to say you hello</h2>
       <DefaultComponent name={prop}></DefaultComponent>
+      <button onClick={() => {setProp("Неугадал")}}>Say hello</button>
       <button onClick={changeProp}>Say hello</button>
-      <button onClick={changeProp}>Say hello</button>
-      <button onClick={changeProp}>Say hello</button>
-      <button onClick={changeProp}>Say hello</button>
-      <button onClick={changeProp}>Say hello</button>
+      <button onClick={() => {setProp("Неугадал")}}>Say hello</button>
+      <button onClick={() => {setProp("Неугадал")}}>Say hello</button>
+      <button onClick={() => {setProp("Неугадал")}}>Say hello</button>
     </>
   )
 }
