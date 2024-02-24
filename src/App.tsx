@@ -22,11 +22,11 @@ function App() {
       <h2>Enter your name to say you hello</h2>
       <input type="text" placeholder="Enter you'r name here" value={inputvalue} onChange={changeInputValue} className='inputLabel'></input>
       <br></br>
-      <button onClick={() => {setProp("Неугадал кнопку 😝")}}>Say hello</button>
+      <button onClick={() => {setProp("Не угадал кнопку 😝")}}>Say hello</button>
       <button onClick={changeProp}>Say hello</button>
-      <button onClick={() => {setProp("Неугадал кнопку 🙂")}}>Say hello</button>
-      <button onClick={() => {setProp("Неугадал кнопку 😛")}}>Say hello</button>
-      <button onClick={() => {setProp("Неугадал кнопку 🤓")}}>Say hello</button>
+      <button onClick={() => {setProp("Не угадал кнопку 🙂")}}>Say hello</button>
+      <button onClick={() => {setProp("Не угадал кнопку 😛")}}>Say hello</button>
+      <button onClick={() => {setProp("Не угадал кнопку 🤓")}}>Say hello</button>
       <Button onClick={() => {setProp("Угадал кнопку, но она ничего не делает")}} text = 'Нажми на меня'></Button>
       <DefaultComponent name={prop}></DefaultComponent>
       
