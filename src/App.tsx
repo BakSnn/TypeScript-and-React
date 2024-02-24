@@ -1,7 +1,7 @@
 import { SetStateAction, useState } from 'react'
 import './App.css'
 import DefaultComponent from './components/DefaultComponent'
-import Button from './UI/Button/Button.jsx'
+import Buttons from './UI/Button/Button.jsx'
 function App() {
   const changeProp = () => {
     if(inputvalue !== '')
@@ -27,9 +27,8 @@ function App() {
       <button onClick={() => {setProp("Не угадал кнопку 🙂")}}>Say hello</button>
       <button onClick={() => {setProp("Не угадал кнопку 😛")}}>Say hello</button>
       <button onClick={() => {setProp("Не угадал кнопку 🤓")}}>Say hello</button>
-      <Button onClick={() => {setProp("Угадал кнопку, но она ничего не делает")}} text = 'Нажми на меня'></Button>
+      <Buttons onClick={() => {setProp("Угадал кнопку, но она ничего не делает")}} text = 'Нажми на меня'></Buttons>
       <DefaultComponent name={prop}></DefaultComponent>
-      
     </>
   )
 }
