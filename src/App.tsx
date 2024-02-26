@@ -14,7 +14,7 @@ function App() {
   }) => {
     setInputValue(event.target.value)
   }
-  const [prop, setProp] = useState("{You'r name}")
+  const [prop, setProp] = useState("{You'r nameed}")
   const [inputvalue, setInputValue] = useState('')
 
   return (
